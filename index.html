@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Create a function to calculate the factorial of a number using closure -->
+    <div>
+        <h3>Q1: Create a function to calculate the factorial of a number using closure</h3>
+        <div style="display: flex;">
+            <input type="number" placeholder="Enter a number" id="input">
+            <button id="btn" onclick="Factorial()" style="margin-left: 5px;">Factorial</button>
+        </div>
+        <div style="display: flex;">
+            <p id="label" style="display: none;">Answer = </p>
+            <p id="answer" style="color: red;"></p>
+        </div>
+    </div>
+
+    <div>
+        <h3>Q2: Write a JavaScript program to test if the first character of a string is uppercase or not, if not then set the first character to uppercase</h3>
+        <div style="display: flex;">
+            <input type="text" placeholder="Text" id="input2">
+            <button id="btn2" onclick="checkUpperCase()" style="margin-left: 5px;">Test</button>
+        </div>
+        <div style="display: flex;">
+            <p id="label2" style="display: none;">Answer = </p>
+            <p id="answer2" style="color: red;"></p>
+        </div>
+    </div>
+
+    <div>
+        <h3>Q3. Calculator function</h3>
+        <div style="display: flex;">
+            <button onclick="read()">read</button>
+            <button onclick="sum()" style="margin-left: 10px;">sum</button>
+            <button onclick="mul()" style="margin-left: 10px;">multiply</button>
+        </div>
+    </div>
+
+    <div>
+        <h3>Q4. Deep clone</h3>
+        <textarea name="object" id="input3"></textarea>
+        <button onclick="clone()" style="margin-left: 10px;">clone</button>
+        <p id="answer3"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
